@@ -1,0 +1,15 @@
+ssh root@185.104.114.122
+sftp root@185.104.114.122
+xFguG4q7
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+bash Anaconda3-2020.11-Linux-x86_64.sh
+
+
+scp/mnt/c/Users/do6pb/OneDrive/made/ml/newsgroups/newsgroups.zip root@185.104.114.122:/root
+
+rmdir newsgroups
+
+nohup python имя_скрипта 2>/dev/null &
+screen
+
+http://402597-cg10839.tmweb.ru/news-demo
